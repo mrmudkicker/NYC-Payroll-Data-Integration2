@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-nycpayroll-pablob"
+        },
+        "ls_adls_nycpayroll_accountKey": {
+            "value": ""
+        },
+        "ls_sql_nycpayroll_connectionString": {
+            "value": ""
+        },
+        "ls_adls_nycpayroll_properties_typeProperties_url": {
+            "value": "https://adlsnycpayrollpablob.dfs.core.windows.net/"
+        }
+    }
+}
